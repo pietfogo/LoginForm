@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(22, 0, 50, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    margin-right: 80px;
+}
+#right-login {
+    height: 70%;
+}
+section {
+    width: 30%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px, 10px;
+    background: rgba(29, 8, 68, 0.83);
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.66);
+    margin-right: 130px;
+}
+#tit2-login {
+    font-size: 35px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+h1 {
+    color: rgb(224,227,0);
+}
+label {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input {
+    width: 70%;
+    height: 10%;
+    border: none;
+    padding: 12px;
+    border-radius: 7.5px;
+
+}
+#email-login {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+#password-login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#botao {
+    width: 300px;
+    height: 20%;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.66);
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(224,227,0);
+}
+input::placeholder {
+    color:rgba(22, 0, 50, 1);
+}
+
+
+@media only screen and (max-width: 600px) {
+    #main-login {
+        flex-direction: column;
+    }
+
+    #left-login {
+        width: 100%;
+        height: 50vh;
+    }
+
+    section {
+        width: 90%;
+        max-width: 300px;
+        height: 42%;
+        padding-bottom: 0px;
+    }
+    #right-login {
+        margin-left: 10%;
+    }
+    #botao {
+        width: 250px;
+        margin-right: 30px;
+    }
+    #tit2-login {
+        margin-right: 24px;
+    }
+    #tit-login {
+        font-size: 30px;
+        margin-top: none;
+    }
+    img {
+        width: 400px;
+        height: 330px;
+        margin-left: -12px;
+    }
+}
+
+#kkk {
+    width: 80px;
+    height: 40px;
+    transform: translate(1180px, -260px);
+}
+#kkk:hover {
+    cursor: pointer;
+}
+#uk {
+    max-width: 100%;
+    max-height: 100%;
+}
+#kkk2 {
+    width: 85px;
+    height: 60px;
+    transform: translate(1180px, -260px);
+    margin-left: 5px;
+}
+#brazil {
+    max-width: 100%;
+    max-height: 100%;
+}
+#kkk2:hover {
+    cursor: pointer;
+}
+h3 {
+    color: white;
+    font-style: oblique;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#tit-login {
+    cursor: default;
+}
